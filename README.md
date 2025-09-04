@@ -17,7 +17,7 @@ A React.js space tourism website where users can explore outer space destination
 
 ## 🛠️ Tech Stack
 
-- Frontend: React.js, JSX
+- Frontend: React.js, TSX
 
 - Styling: TailwindCSS
 
@@ -51,7 +51,7 @@ space-tourism/
 
 1. Clone the Repository
 ````bash
-git clone https://github.com/Horlanrewajucode/space-tourism.git
+git clone https://github.com/Horlanrewajucode/space-tourism-typescript.git
 cd space-tourism
 ````
 2. Install Dependencies
