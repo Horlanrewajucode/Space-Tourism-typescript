@@ -32,7 +32,7 @@ function Destination() {
         </div>
         <div className="flex flex-col items-center md:w[540px] md:h-[540px] md:gap-4 md:justify-center">
           <nav className="flex gap-8 items-center text-center">
-            {Object.keys(destination).map((key) => (
+            {(Object.keys(destination) as DestinationKeys[]).map((key) => (
               <button
                 key={key}
                 onClick={() => setActive(key)}
